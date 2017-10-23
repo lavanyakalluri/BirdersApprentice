@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		D35E21431F95766500D5431E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E21421F95766500D5431E /* AppDelegate.swift */; };
-		D35E21451F95766500D5431E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E21441F95766500D5431E /* ViewController.swift */; };
+		D35E21451F95766500D5431E /* BirdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E21441F95766500D5431E /* BirdsTableViewController.swift */; };
 		D35E21481F95766500D5431E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E21461F95766500D5431E /* Main.storyboard */; };
 		D35E214A1F95766500D5431E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35E21491F95766500D5431E /* Assets.xcassets */; };
 		D35E214D1F95766500D5431E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E214B1F95766500D5431E /* LaunchScreen.storyboard */; };
+		D35E21571F95771500D5431E /* BirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E21561F95771500D5431E /* BirdViewController.swift */; };
+		D35E21591F95775500D5431E /* BirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E21581F95775500D5431E /* BirdTableViewCell.swift */; };
+		D35E215B1F95779300D5431E /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E215A1F95779300D5431E /* Bird.swift */; };
+		D35E215D1F95799E00D5431E /* CountiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E215C1F95799E00D5431E /* CountiesTableViewController.swift */; };
+		D3AD640D1F9E74AB00D31278 /* AddBirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AD640C1F9E74AB00D31278 /* AddBirdViewController.swift */; };
+		D3AD640F1F9E763200D31278 /* AddCountiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AD640E1F9E763200D31278 /* AddCountiesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D35E213F1F95766500D5431E /* BirdersApprentice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdersApprentice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35E21421F95766500D5431E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D35E21441F95766500D5431E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D35E21441F95766500D5431E /* BirdsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsTableViewController.swift; sourceTree = "<group>"; };
 		D35E21471F95766500D5431E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35E21491F95766500D5431E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35E214C1F95766500D5431E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D35E214E1F95766500D5431E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35E21561F95771500D5431E /* BirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewController.swift; sourceTree = "<group>"; };
+		D35E21581F95775500D5431E /* BirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdTableViewCell.swift; sourceTree = "<group>"; };
+		D35E215A1F95779300D5431E /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		D35E215C1F95799E00D5431E /* CountiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountiesTableViewController.swift; sourceTree = "<group>"; };
+		D3AD640C1F9E74AB00D31278 /* AddBirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirdViewController.swift; sourceTree = "<group>"; };
+		D3AD640E1F9E763200D31278 /* AddCountiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCountiesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				D35E21421F95766500D5431E /* AppDelegate.swift */,
-				D35E21441F95766500D5431E /* ViewController.swift */,
+				D35E215C1F95799E00D5431E /* CountiesTableViewController.swift */,
+				D35E21441F95766500D5431E /* BirdsTableViewController.swift */,
+				D35E21561F95771500D5431E /* BirdViewController.swift */,
+				D35E21581F95775500D5431E /* BirdTableViewCell.swift */,
+				D35E215A1F95779300D5431E /* Bird.swift */,
 				D35E21461F95766500D5431E /* Main.storyboard */,
+				D3AD640C1F9E74AB00D31278 /* AddBirdViewController.swift */,
+				D3AD640E1F9E763200D31278 /* AddCountiesViewController.swift */,
 				D35E21491F95766500D5431E /* Assets.xcassets */,
 				D35E214B1F95766500D5431E /* LaunchScreen.storyboard */,
 				D35E214E1F95766500D5431E /* Info.plist */,
@@ -136,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35E21451F95766500D5431E /* ViewController.swift in Sources */,
+				D3AD640D1F9E74AB00D31278 /* AddBirdViewController.swift in Sources */,
+				D35E21451F95766500D5431E /* BirdsTableViewController.swift in Sources */,
+				D35E21591F95775500D5431E /* BirdTableViewCell.swift in Sources */,
 				D35E21431F95766500D5431E /* AppDelegate.swift in Sources */,
+				D3AD640F1F9E763200D31278 /* AddCountiesViewController.swift in Sources */,
+				D35E215D1F95799E00D5431E /* CountiesTableViewController.swift in Sources */,
+				D35E215B1F95779300D5431E /* Bird.swift in Sources */,
+				D35E21571F95771500D5431E /* BirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
